@@ -5,6 +5,7 @@ description = "Asynchronous Email Backend for Django with Huey."
 authors = ["jukanntenn <jukanntenn@outlook.com>"]
 license = "BSD-3-Clause"
 readme = "README.md"
+repository = "https://github.com/jukanntenn/django-huey-email"
 keywords = ["django", "huey", "email"]
 packages = [
     { include = "huey_email" },
