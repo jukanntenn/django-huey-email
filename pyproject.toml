@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-huey-email"
+version = "0.0.1"
+description = "Asynchronous Email Backend for Django with Huey."
+authors = ["jukanntenn <jukanntenn@outlook.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+keywords = ["django", "huey", "email"]
+packages = [
+    { include = "huey_email" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+huey = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
